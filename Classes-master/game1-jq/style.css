@@ -1,0 +1,37 @@
+.wrapper{
+    width: 400px;
+    height: 600px;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+    background-size: cover;
+}
+.block{
+    height: 25px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+}
+.obj{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.score, .missed {
+    font-size: 60px;
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+    color: green;
+}
+.missed{
+    left: 10px;
+    color: red;
+}
